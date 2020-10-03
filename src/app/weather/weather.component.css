@@ -1,0 +1,15 @@
+.container.main {
+    margin-top: 65px;
+    padding: 20px;
+}
+.card {
+    width: 16rem;
+    flex-direction: row;
+}
+.card-body {
+    min-width: 200px;
+}
+.card-text p {
+    margin-bottom: 5px;
+    font-weight: 400;
+}
