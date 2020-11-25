@@ -31,13 +31,13 @@
       </div>
       <div class="col-md-6">
         <div class="card text-center">
-          <img class="card-img-top" [src]="this.weatherData?.current.weather_icons" alt="Weather Icon">
+          <img class="card-img-top" [src]="weatherData?.current.weather_icons" alt="Weather Icon">
           <div class="card-body">
-            <h5 class="card-title">Temperature: {{ this.weatherData?.current?.temperature }} °C | {{this.weatherData?.current.weather_descriptions}}</h5>
+            <h5 class="card-title">Temperature: {{ weatherData?.current?.temperature }} °C | {{weatherData?.current.weather_descriptions}}</h5>
             <div class="card-text">
-              <p>Measured at: {{ this.weatherData?.current?.observation_time}}</p>
-              <p>Wind Speed: {{ this.weatherData?.current?.wind_speed}} km/h</p>
-              <p>Humidity: {{ this.weatherData?.current?.humidity}} %</p>
+              <p>Measured at: {{ weatherData?.current?.observation_time}}</p>
+              <p>Wind Speed: {{ weatherData?.current?.wind_speed}} km/h</p>
+              <p>Humidity: {{ weatherData?.current?.humidity}} %</p>
             </div>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
